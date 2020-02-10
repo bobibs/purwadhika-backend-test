@@ -65,7 +65,7 @@ module.exports = {
 
 	// Admin Delete Movie
 	adminDeleteMovie: (req, res) => {
-		// Get Id From Frontend
+		// Get Data From Frontend
 		const { id } = req.params;
 
 		// Set SQL Syntax
